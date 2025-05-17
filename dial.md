@@ -1,3 +1,16 @@
+
+
+✅ Approach
+We'll:
+
+Create a raw transaction.
+
+Insert the OP_RETURN or script payload.
+
+Sign it.
+
+Broadcast it.
+
 int main() {
     const char *parent_txid = "abcd1234..."; // TXID you're spending from
     int vout = 0;                            // Output index
